@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.image-carousel"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-us"
+    },
+    "instructor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.reviews"
+    },
+    "blogs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-blog-posts"
+    }
+  }
+}

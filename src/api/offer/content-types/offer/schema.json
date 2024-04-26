@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.services"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.reviews"
+    },
+    "blogs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-blog-posts"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.fa-qs"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_fa_qs",
+  "info": {
+    "displayName": "FAQs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button_cta": {
+      "type": "string",
+      "required": true
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.fa-qs"
+    }
+  }
+}

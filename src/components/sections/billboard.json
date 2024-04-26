@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_billboard_billboards",
+  "info": {
+    "displayName": "Billboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "showreel": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "second_showreel": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "button_cta": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_featured_blog_posts_featured_blog_posts",
+  "info": {
+    "displayName": "Featured Blog Posts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blog_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "button_cta": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
